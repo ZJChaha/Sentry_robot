@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/TASK/Chassis_task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/TASK/Gimbal_task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/TASK/INS_task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/TASK/Information_task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/TASK/Information_task.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/TASK/Referee_usart_task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/TASK/Referee_usart_task.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/TASK/Shoot_task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/TASK/USB_task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/application/CAN_receive.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/application/CAN_receive.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/application/remote_control.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/application/remote_control.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/bsp/bsp_rc.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/bsp/bsp_usart.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/components/algorithm/kalman.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/components/algorithm/kalman.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/components/controller/controller.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/components/controller/pid.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/components/controller/pid.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/components/devices/BMI088driver.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/components/support/CRC8_CRC16.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/components/support/CRC8_CRC16.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/user/SerialDebug.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/user/dm_motor_drv.h" charset="GBK" />
+  </component>
+</project>

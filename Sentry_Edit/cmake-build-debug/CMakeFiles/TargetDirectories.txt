@@ -1,0 +1,3 @@
+D:/Clion_Project/Sentry_Edit/cmake-build-debug/CMakeFiles/Sentry_Edit.elf.dir
+D:/Clion_Project/Sentry_Edit/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Clion_Project/Sentry_Edit/cmake-build-debug/CMakeFiles/rebuild_cache.dir

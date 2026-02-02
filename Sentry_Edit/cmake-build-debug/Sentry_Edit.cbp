@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Sentry_Edit"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Clion_Project/Sentry_Edit/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sentry_Edit.elf">
+				<Option output="D:/Clion_Project/Sentry_Edit/cmake-build-debug/Sentry_Edit.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion_Project/Sentry_Edit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Core/Inc"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/USB_DEVICE/App"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/USB_DEVICE/Target"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Middlewares/ST/ARM/DSP/Inc"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/application"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/components/algorithm"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/components/controller"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/components/devices"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/components/support"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/TASK"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/user"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/bsp"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sentry_Edit.elf"/>
+					<CompileFile command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sentry_Edit.elf/fast">
+				<Option output="D:/Clion_Project/Sentry_Edit/cmake-build-debug/Sentry_Edit.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion_Project/Sentry_Edit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Core/Inc"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/USB_DEVICE/App"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/USB_DEVICE/Target"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/Middlewares/ST/ARM/DSP/Inc"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/application"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/components/algorithm"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/components/controller"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/components/devices"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/components/support"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/TASK"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/user"/>
+					<Add directory="D:/Clion_Project/Sentry_Edit/bsp"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sentry_Edit.elf/fast"/>
+					<CompileFile command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Clion_Project/Sentry_Edit/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Clion_Project/Sentry_Edit/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZJC/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion_Project/Sentry_Edit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Inc/FreeRTOSConfig.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Inc/adc.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Inc/can.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Inc/dma.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Inc/gpio.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Inc/i2c.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Inc/main.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Inc/spi.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Inc/stm32f4xx_it.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Inc/tim.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Inc/usart.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/adc.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/can.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/dma.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/freertos.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/gpio.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/i2c.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/main.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/spi.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/stm32f4xx_it.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/syscalls.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/sysmem.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/system_stm32f4xx.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/tim.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Src/usart.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Core/Startup/startup_stm32f407ighx.s">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/CMSIS/LICENSE.txt">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/ST/ARM/DSP/Inc/arm_math.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/STM32F407IGHX_FLASH.ld">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Buzzer_task.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Buzzer_task.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Calibrate_task.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Calibrate_task.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Chassis_task.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Chassis_task.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Detect_left_task.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Detect_left_task.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Detect_right_task.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Detect_right_task.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Gimbal_task.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Gimbal_task.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/INS_task.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/INS_task.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Information_task.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Information_task.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Referee_usart_task.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Referee_usart_task.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Shoot_task.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Shoot_task.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Super_cap_Task.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/Super_cap_Task.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/USB_task.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/TASK/USB_task.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/USB_DEVICE/App/usb_device.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/USB_DEVICE/App/usb_device.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/USB_DEVICE/App/usbd_cdc_if.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/USB_DEVICE/App/usbd_cdc_if.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/USB_DEVICE/App/usbd_desc.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/USB_DEVICE/App/usbd_desc.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/USB_DEVICE/Target/usbd_conf.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/USB_DEVICE/Target/usbd_conf.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/application/CAN_receive.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/application/CAN_receive.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/application/protocol.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/application/referee.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/application/referee.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/application/remote_control.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/application/remote_control.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/All_struct.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_PWM.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_PWM.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_adc.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_adc.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_can.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_can.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_delay.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_delay.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_dwt.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_dwt.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_fric.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_fric.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_i2c.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_i2c.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_imu_pwm.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_imu_pwm.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_rc.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_rc.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_spi.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_spi.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_super_cap.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_super_cap.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_usart.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/bsp/bsp_usart.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/Include/arm_common_tables.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/Include/arm_const_structs.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/Include/arm_math.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/Include/core_sc000.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/Include/core_sc300.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/QuaternionEKF.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/QuaternionEKF.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/arm_cortexM4lf_math.lib">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/kalman.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/kalman.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/kalman_filter.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/kalman_filter.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/user_lib.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/algorithm/user_lib.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/controller/controller.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/controller/controller.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/controller/pid.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/controller/pid.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/devices/BMI088Middleware.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/devices/BMI088Middleware.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/devices/BMI088driver.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/devices/BMI088driver.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/devices/BMI088reg.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/devices/transfer_function.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/devices/transfer_function.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/support/CRC8_CRC16.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/support/CRC8_CRC16.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/support/fifo.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/support/fifo.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/support/linux_list.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/support/macro_mutex.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/support/mem_mang.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/components/support/mem_mang4.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/user/SerialDebug.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/user/SerialDebug.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/user/dm_motor_drv.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/user/dm_motor_drv.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/user/vofa.c">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/user/vofa.h">
+			<Option target="Sentry_Edit.elf"/>
+		</Unit>
+		<Unit filename="D:/Clion_Project/Sentry_Edit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
